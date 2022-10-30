@@ -1,0 +1,12 @@
+.card-header {
+  background-color: #002538;
+  border-radius: 0 !important;
+  color: white;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.chart-image {
+  height: 300px;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+<clr-main-container>
+	<div class="content-container">
+		<main class="content-area">
+			<div class="container">
+        <button type="button" class="btn btn-primary" (click)="generateViews()">Generate Views</button>
+        <app-graphs *ngIf="showViews" [metricesResults]="metricOutputs" [selectedMetrices]="selectedMetrices"></app-graphs>
+      </div>
+    </main>
+  </div>
+</clr-main-container>
